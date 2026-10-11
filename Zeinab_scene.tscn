@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://b6e7nxcyfvmpj"]
+
+[ext_resource type="Texture2D" uid="uid://dbrhwh7062x7r" path="res://Tinkerbell15.webp" id="1_0xejy"]
+
+[node name="Node2D" type="Node2D" unique_id=1387517573]
+
+[node name="Tinkerbell15" type="Sprite2D" parent="." unique_id=99760799]
+position = Vector2(944, 339)
+scale = Vector2(0.25577363, 0.2772222)
+texture = ExtResource("1_0xejy")
