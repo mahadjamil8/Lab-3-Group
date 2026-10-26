@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://bmvjr8xig2isv"]
+
+[ext_resource type="PackedScene" uid="uid://dustonvs0mbkd" path="res://mahad_scene.tscn" id="1_gyfs4"]
+[ext_resource type="PackedScene" uid="uid://b6e7nxcyfvmpj" path="res://Zeinab_scene.tscn" id="2_d5x1h"]
+[ext_resource type="PackedScene" uid="uid://cvp763u44uxky" path="res://joshua/joshua_scene.tscn" id="3_8mm7a"]
+
+[node name="MainScene" type="Node2D" unique_id=1895950931]
+
+[node name="MahadScene" parent="." unique_id=1989872024 instance=ExtResource("1_gyfs4")]
+
+[node name="Zeinab_scene" parent="." unique_id=1387517573 instance=ExtResource("2_d5x1h")]
+
+[node name="joshua_scene" parent="." unique_id=1200829281 instance=ExtResource("3_8mm7a")]
